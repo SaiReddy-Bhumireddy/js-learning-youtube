@@ -10,9 +10,13 @@ console.table([studentName, studentAge, valueUndefined, valueNull, valueBoolean,
 console.log("Checking converting data type to number to check possible outcomes below");
 
 let numberTostudentName = Number(studentName);
+
 let numberTostudentAge = Number(studentAge);
+
 let numberTovalueUndefined = Number(valueUndefined);
+
 let numberTovalueNull = Number(valueNull);
+
 let numberTovalueBoolean = Number(valueBoolean);
 let numberTovalueBooleanFalse = Number(valueBooleanFalse);
 console.table([typeof numberTostudentName, typeof numberTostudentAge, typeof numberTovalueUndefined, typeof numberTovalueNull, typeof numberTovalueBoolean, typeof numberTovalueBooleanFalse])
