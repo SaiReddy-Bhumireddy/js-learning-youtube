@@ -75,6 +75,33 @@ console.log("Array before performng flat method "+ flatArray);
 flatArray.flat()
 console.log("Array method after performing flat method "+flatArray);
 
+// +++++ Spread method +++++++++
+
+// it combines two or more arays
+
+let arraySpread = [1,2,3,4,5,5];
+let anotherArray = [3,4,6,6];
+let outputSpread = [...arraySpread,...anotherArray];
+console.log(outputSpread);
+
+// +++++++ CONCAT METHOD +++++++
+// concat method combines two arrays but it cannot made changes to main array
+// it only copies main array, if we want to print the output we want to assign the concat method to a varibale
+
+// ++++++++++ IsArray method ++++++++
+
+// it checks whether the passed values is array ornot and returns boolean values accordingly.
+
+console.log(Array.isArray("SAireddy"));
+
+// +++++++ Array.Of method ++++++++
+// it converts the passed values into an array
+console.log(Array.of(12,13,15));
+// +++++++ Array.From method++++++++
+
+console.log(Array.from("Sai Reddy"));
+
+
 
 
 
